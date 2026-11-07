@@ -1,0 +1,26 @@
+# ====================================================================
+# Apache Configuration — Voting Kakang Senduk Ponorogo
+# ====================================================================
+
+# Set Default Charset
+AddDefaultCharset UTF-8
+
+# Prevent Directory Browsing
+Options -Indexes
+
+# Protect Database SQL and sensitive files
+<FilesMatch "\.(sql|log|ini|env|sh|bak)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# Custom Error Pages
+ErrorDocument 403 /voting-kakang-senduk/pages/403.php
+ErrorDocument 404 /voting-kakang-senduk/pages/404.php
+
+# PHP Execution & Security flags (if supported)
+<IfModule mod_php.c>
+    php_flag display_errors Off
+    php_flag log_errors On
+</IfModule>
+

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <defs>
+    <linearGradient id="embGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE5A4"/>
+      <stop offset="50%" stop-color="#D6AE58"/>
+      <stop offset="100%" stop-color="#9C7221"/>
+    </linearGradient>
+    <linearGradient id="embNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3668"/>
+      <stop offset="100%" stop-color="#0E1933"/>
+    </linearGradient>
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#D6AE58" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Circular Outer Halo -->
+  <circle cx="40" cy="40" r="37" fill="url(#embNavy)" stroke="url(#embGold)" stroke-width="2" filter="url(#goldGlow)"/>
+  <circle cx="40" cy="40" r="33" fill="none" stroke="url(#embGold)" stroke-width="1" stroke-dasharray="3 3" opacity="0.6"/>
+
+  <!-- Pageant Shield Base -->
+  <path d="M40 18 L60 27 L56 53 C56 61 40 68 40 68 C40 68 24 61 24 53 L20 27 Z" 
+        fill="#0A1124" stroke="url(#embGold)" stroke-width="1.8"/>
+
+  <!-- Crown / Dadak Merak Peaks -->
+  <path d="M28 39 L33 46 L40 31 L47 46 L52 39 L50 51 L30 51 Z" fill="url(#embGold)"/>
+
+  <!-- Central Jewel -->
+  <circle cx="40" cy="43" r="2.5" fill="#FFFFFF"/>
+
+  <!-- Traditional Curve Accent -->
+  <path d="M33 58 Q40 54 47 58" stroke="url(#embGold)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+</svg>
+

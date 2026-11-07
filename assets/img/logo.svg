@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2D07C"/>
+      <stop offset="50%" stop-color="#D6AE58"/>
+      <stop offset="100%" stop-color="#A57D2C"/>
+    </linearGradient>
+    <linearGradient id="navyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A2D5A"/>
+      <stop offset="100%" stop-color="#101B35"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Crown / Dadak Emblem -->
+  <g transform="translate(15, 10)">
+    <!-- Base shield -->
+    <path d="M40 5 L70 20 L65 60 C65 72 40 85 40 85 C40 85 15 72 15 60 L10 20 Z" fill="url(#navyGrad)" stroke="url(#goldGrad)" stroke-width="2.5"/>
+    <!-- Crown Points -->
+    <path d="M22 35 L30 45 L40 25 L50 45 L58 35 L55 55 L25 55 Z" fill="url(#goldGrad)"/>
+    <!-- Ruby jewel -->
+    <circle cx="40" cy="40" r="3" fill="#D6AE58"/>
+    <!-- Traditional curl accent -->
+    <path d="M30 65 Q40 58 50 65" stroke="url(#goldGrad)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(100, 20)">
+    <text x="0" y="28" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="700" fill="url(#goldGrad)" letter-spacing="1.5">KAKANG SENDUK</text>
+    <text x="2" y="48" font-family="'Poppins', sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" letter-spacing="4">PONOROGO</text>
+    <text x="2" y="64" font-family="'Inter', sans-serif" font-size="9" font-weight="400" fill="#D6AE58" opacity="0.9">BUMI REOG • DUTA WISATA DAERAH</text>
+  </g>
+</svg>
+
